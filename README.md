@@ -35,3 +35,6 @@
 - Para executar, va ate a pasta onde o jar foi gerado e execute o camando abaixo no prompt de comando
 ```
 java -jar consulta-placa-0.0.1-SNAPSHOT.jar
+```
+
+![alt text](https://github.com/jonatasfa/consulta-placa/blob/master/images/Captura%20de%20tela%20de%202019-05-14%2011-45-54.png)
