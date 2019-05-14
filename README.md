@@ -2,21 +2,33 @@
 
 ## Pre-requisito
 - Ter um banco de dados criado e rodando
-    - para o desenvolvimento criei uma base no elephantsql. Acessando com as credenciais abaixo vc pode pegar os dados de conexao
+    - Para o desenvolvimento criei uma base no elephantsql. O projeto ja esta configurado para acessar essa base.
+    - Acessando com as credenciais abaixo vc pode pegar os dados de conexao (host, usuario, senha)
     ```
     https://www.elephantsql.com/
     loguin: jonatasfa@gmail
     senha: tanner123
     ```
-    - caso seja criado outro banco, existe um de criacao das tabelas na pasta doc na raiz do projeto
+    - caso seja criado outro banco, existe um script de criacao das tabelas na pasta doc na, raiz do projeto
     - as configuracoes de bancos sao feitas no arquivo src/main/resources/application.properties
 
 ## Build
 - O build da aplicação é feito através do gradle
     - Instrunções para instalação do gradle
-    ```
-        https://www.tutorialspoint.com/gradle/gradle_installation.htm
-    ```
+        - Faz o donwload do zip no endereço
+        ```
+        https://gradle.org/releases/
+        ```
+        - Descompacta em algum lugar e seta uma variavel de ambiente no windows
+        ```
+        GRADLE_HOME = o caminho da pasta do gradle ate o \bin. e: C:\gradle\gradle-5.4.1\bin
+        ```
+    - Faz o build do projeto
+        - Baixa o projeto aqui do git.
+        - Entra na pasta do projeto e digita. 
+        ```
+        gradle build
+        ```
 
 ## Executar
 - Apos o build, o arquivo jar é gerado dentro da pasta build/libs
