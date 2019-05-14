@@ -32,6 +32,6 @@
 
 ## Executar
 - Apos o build, o arquivo jar é gerado dentro da pasta build/libs
-- Para executar execute o camando abaixo no prompt de comando
+- Para executar, va ate a pasta onde o jar foi gerado e execute o camando abaixo no prompt de comando
 ```
 java -jar consulta-placa-0.0.1-SNAPSHOT.jar
