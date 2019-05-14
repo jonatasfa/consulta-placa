@@ -52,3 +52,15 @@ java -jar consulta-placa-0.0.1-SNAPSHOT.jar
     - Header Authorization preenchido
     - Passa um body do tipo form-data, key=file, value=caminho do arquivo
 ![alt text](https://github.com/jonatasfa/consulta-placa/blob/master/images/Captura%20de%20tela%20de%202019-05-14%2011-46-48.png)
+
+- Reiniciar senha
+    - Metodo GET
+    - Header Authorization preenchido
+    - Passa o ID do usuario como parametro na url
+![alt text](https://github.com/jonatasfa/consulta-placa/blob/master/images/Captura%20de%20tela%20de%202019-05-14%2011-47-15.png)
+
+- Consultar placa
+    - Metodo GET
+    - Header Authorization preenchido
+    - Passa a placa como parametro na url
+![alt text](https://github.com/jonatasfa/consulta-placa/blob/master/images/Captura%20de%20tela%20de%202019-05-14%2011-47-40.png)
