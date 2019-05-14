@@ -25,13 +25,13 @@
         ```
     - Faz o build do projeto
         - Baixa o projeto aqui do git.
-        - Entra na pasta do projeto e digita. 
+        - Entra na pasta do projeto pelo prompt de comando e digita. 
         ```
         gradle build
         ```
 
 ## Executar
 - Apos o build, o arquivo jar é gerado dentro da pasta build/libs
-- Para executar execute o camando abaixo
+- Para executar execute o camando abaixo no prompt de comando
 ```
 java -jar consulta-placa-0.0.1-SNAPSHOT.jar
