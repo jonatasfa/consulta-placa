@@ -36,5 +36,7 @@
 ```
 java -jar consulta-placa-0.0.1-SNAPSHOT.jar
 ```
+## Endpoints
+- Feito o login, todas as outras requisicoes precisaram do header de Authorization como ilustrado abaixo
 
 ![alt text](https://github.com/jonatasfa/consulta-placa/blob/master/images/Captura%20de%20tela%20de%202019-05-14%2011-45-54.png)
