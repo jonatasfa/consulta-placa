@@ -1,6 +1,7 @@
 package br.com.i2assessoria.consultaplaca.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -12,6 +13,10 @@ public class EmailService {
 
     private JavaMailSender javaMailSender;
 
+    @Value("${spring.mail.from}")
+    private String emailFrom;
+
+
     @Autowired
     public EmailService(JavaMailSender javaMailSender){
         this.javaMailSender = javaMailSender;
@@ -22,7 +27,7 @@ public class EmailService {
         SimpleMailMessage message = new SimpleMailMessage();
         message.setText(messagem);
         message.setTo(email);
-        message.setFrom("gabrieltanner@gmail.com");
+        message.setFrom(emailFrom);
         javaMailSender.send(message);
     }
 
